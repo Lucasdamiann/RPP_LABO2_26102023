@@ -11,11 +11,7 @@ namespace Fabrica
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
 
-        }
 
-        provate void
     }
 }

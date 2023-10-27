@@ -33,9 +33,9 @@
             lstVehiculos = new ListBox();
             lblTipoVechiculo = new Label();
             cmbVehiculos = new ComboBox();
+            pcbFabrica = new PictureBox();
             btnEliminar = new Button();
-            pictureBox1 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcbFabrica).BeginInit();
             SuspendLayout();
             // 
             // btnFabricar
@@ -76,42 +76,40 @@
             cmbVehiculos.Size = new Size(131, 23);
             cmbVehiculos.TabIndex = 3;
             // 
+            // pcbFabrica
+            // 
+            pcbFabrica.Image = (Image)resources.GetObject("pcbFabrica.Image");
+            pcbFabrica.Location = new Point(702, 127);
+            pcbFabrica.Name = "pcbFabrica";
+            pcbFabrica.Size = new Size(131, 64);
+            pcbFabrica.TabIndex = 4;
+            pcbFabrica.TabStop = false;
+            // 
             // btnEliminar
             // 
-            btnEliminar.Location = new Point(702, 295);
+            btnEliminar.Location = new Point(702, 327);
             btnEliminar.Name = "btnEliminar";
-            btnEliminar.Size = new Size(131, 62);
-            btnEliminar.TabIndex = 4;
+            btnEliminar.Size = new Size(131, 23);
+            btnEliminar.TabIndex = 5;
             btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.InitialImage = null;
-            pictureBox1.Location = new Point(702, 113);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(131, 76);
-            pictureBox1.TabIndex = 5;
-            pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
-            // 
-            // Form1
+            // FrmView
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(891, 450);
-            Controls.Add(pictureBox1);
             Controls.Add(btnEliminar);
+            Controls.Add(pcbFabrica);
             Controls.Add(cmbVehiculos);
             Controls.Add(lblTipoVechiculo);
             Controls.Add(lstVehiculos);
             Controls.Add(btnFabricar);
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "Form1";
+            Name = "FrmView";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcbFabrica).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -122,7 +120,7 @@
         private ListBox lstVehiculos;
         private Label lblTipoVechiculo;
         private ComboBox cmbVehiculos;
+        private PictureBox pcbFabrica;
         private Button btnEliminar;
-        private PictureBox pictureBox1;
     }
 }
