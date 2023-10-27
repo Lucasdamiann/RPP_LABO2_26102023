@@ -1,4 +1,4 @@
-namespace Fabrica
+namespace FabricaAutomoviles
 {
     internal static class Program
     {

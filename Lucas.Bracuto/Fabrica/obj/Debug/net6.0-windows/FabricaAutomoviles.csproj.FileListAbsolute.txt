@@ -19,3 +19,4 @@ D:\UTN\Programacion y Laboratorio II\RPP_LABO2_26102023\Lucas.Bracuto\Fabrica\ob
 D:\UTN\Programacion y Laboratorio II\RPP_LABO2_26102023\Lucas.Bracuto\Fabrica\obj\Debug\net6.0-windows\FabricaAutomoviles.pdb
 D:\UTN\Programacion y Laboratorio II\RPP_LABO2_26102023\Lucas.Bracuto\Fabrica\obj\Debug\net6.0-windows\FabricaAutomoviles.genruntimeconfig.cache
 D:\UTN\Programacion y Laboratorio II\RPP_LABO2_26102023\Lucas.Bracuto\Fabrica\obj\Debug\net6.0-windows\ref\FabricaAutomoviles.dll
+D:\UTN\Programacion y Laboratorio II\RPP_LABO2_26102023\Lucas.Bracuto\Fabrica\obj\Debug\net6.0-windows\FabricaAutomoviles.FrmView.resources

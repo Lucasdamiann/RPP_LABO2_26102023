@@ -1,4 +1,4 @@
-﻿namespace Fabrica
+﻿namespace FabricaAutomoviles
 {
     partial class FrmView
     {
@@ -46,6 +46,7 @@
             btnFabricar.TabIndex = 0;
             btnFabricar.Text = "Fabricar";
             btnFabricar.UseVisualStyleBackColor = true;
+            btnFabricar.Click += btnFabricar_Click;
             // 
             // lstVehiculos
             // 
@@ -56,6 +57,7 @@
             lstVehiculos.Name = "lstVehiculos";
             lstVehiculos.Size = new Size(558, 394);
             lstVehiculos.TabIndex = 1;
+            lstVehiculos.SelectedIndexChanged += lstVehiculos_SelectedIndexChanged;
             // 
             // lblTipoVechiculo
             // 
@@ -75,6 +77,7 @@
             cmbVehiculos.Name = "cmbVehiculos";
             cmbVehiculos.Size = new Size(131, 23);
             cmbVehiculos.TabIndex = 3;
+            cmbVehiculos.SelectedIndexChanged += cmbVehiculos_SelectedIndexChanged;
             // 
             // pcbFabrica
             // 
@@ -84,6 +87,7 @@
             pcbFabrica.Size = new Size(131, 64);
             pcbFabrica.TabIndex = 4;
             pcbFabrica.TabStop = false;
+            pcbFabrica.Click += pcbFabrica_Click;
             // 
             // btnEliminar
             // 
@@ -93,6 +97,7 @@
             btnEliminar.TabIndex = 5;
             btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.Click += btnEliminar_Click;
             // 
             // FrmView
             // 
